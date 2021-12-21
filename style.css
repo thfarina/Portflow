@@ -30,12 +30,13 @@ header{
 .menu li{
     margin:  0 2em;
     width: 7rem;
-    height: .5rem;
+    text-align: center;
+    transition: .3s;
 }
 
 .menu li:hover{
     font-weight: 900;
-    font-size: larger;
+    /* font-size: larger; */
 }
 
 .principal{
