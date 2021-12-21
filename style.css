@@ -21,6 +21,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2em;
+
+    background-color: #fff;
+    position: sticky;
+    top: 0%;
 }
 
 .menu{
@@ -89,7 +93,7 @@ footer{
 .socialicons{
     display: flex;
     align-items: center;
-    padding: 0rem 5rem;
+    /* padding: 0rem 5rem; */
 }
 
 .socialicons li img{
