@@ -78,7 +78,8 @@ h1{
 
 .gallery img{
     padding: .4rem;
-    width: 25%;
+    width: 300px;
+    max-width: 100%;
 }
 
 footer{
@@ -97,7 +98,7 @@ footer{
 }
 
 .socialicons li img{
-    height: 30px;
+    width: 90%;
     padding: 0rem 1rem;
 }
 
