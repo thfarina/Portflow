@@ -120,10 +120,14 @@ header h2 a{
         position: absolute;
         z-index: -1;
         left: 1%;
-        top: 3rem;
+        bottom: 0;
 
         background-color: #000;
         border-radius: 0 0 15px 15px;
+        transition: .3s;
+    }
+    #check:checked ~ nav .menu{
+        transform: translateY(100%);
     }
     .menu li{
         padding: .5rem;
@@ -142,7 +146,7 @@ header h2 a{
 }
 @media (max-width: 320px){
     .menu li{
-        padding: .3rem;
+        padding: .1rem;
     }
     .menu li::before{
         font-size: .8rem;
