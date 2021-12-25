@@ -161,6 +161,7 @@ header h1 a{
 
 .principal{
     background-image: url("imgs/laranja azul recorte.png");
+    background-color: #0079cc;
     background-size: cover;
     background-position: center;
 
@@ -173,13 +174,13 @@ header h1 a{
     padding-left: 4rem;
 }
 
-.principal h2{
+.principal div h2{
     font-weight: 800;
     font-size: 3.5rem;
     padding-bottom: 1rem;
 }
 
-.principal h3{
+.principal div h3{
     font-weight: 300;
     font-size: 1.5rem;
 }
@@ -190,15 +191,15 @@ header h1 a{
         min-height: 500px;
         background-position: right;
     }
-    .principal h2{
+    .principal div h2{
         font-size: 3rem;
     }
 }
 @media (max-width: 300px){
-    .principal h2{
+    .principal div h2{
         font-size: 2rem;
     }
-    .principal h3{
+    .principal div h3{
         font-size: 1rem;
     }
 }
