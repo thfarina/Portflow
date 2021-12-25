@@ -13,10 +13,6 @@
     margin: 0 auto;
 }
 
-body{
-    max-width: 1920px;
-}
-
 header{ 
     background-color: #fff;
     position: sticky;
@@ -25,12 +21,16 @@ header{
 
 .content-header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     
     padding: 1rem;
     position: relative;
+}
+
+.back-menu-icon{
+    display: none;
 }
 
 header h2 a{
@@ -103,13 +103,13 @@ header h2 a{
         height: 5px;
         margin: 3px;
         width: 100%;
-        transition: .3s;
+        transition: transform .3s;
     }
     #check:checked ~ .back-menu-icon .menu-icon::before{
         transform: translateY(11px) rotate(45deg);
     }
     #check:checked ~ .back-menu-icon .menu-icon div{
-        width: 0;
+        transform: scaleX(0);
     }
     #check:checked ~ .back-menu-icon .menu-icon::after{
         transform: translateY(-11px) rotate(-45deg);
@@ -119,11 +119,12 @@ header h2 a{
 
         position: absolute;
         z-index: -1;
-        left: 1%;
+        left: 0;
         bottom: 0;
+        width: 30%;
 
         background-color: #000;
-        border-radius: 0 0 15px 15px;
+        border-radius: 0 0 15px 0px;
         transition: .3s;
     }
     #check:checked ~ nav .menu{
