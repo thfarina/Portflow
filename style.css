@@ -236,6 +236,7 @@ footer{
 .socialicons li img{
     height: 30px;
     padding: 0rem 1rem;
+    cursor: pointer;
 }
 
 .copyright{
