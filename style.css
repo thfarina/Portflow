@@ -48,7 +48,7 @@ header h1 a{
     padding: 1rem;
     
     position: relative;
-
+    cursor: pointer;
     font-size: 1rem;
 }
 
@@ -163,7 +163,7 @@ header h1 a{
     background-image: url("imgs/laranja azul recorte.png");
     background-color: #0079cc;
     background-size: cover;
-    background-position: center;
+    background-position: 75%;
 
     display: flex;
     flex-direction: column;
@@ -189,7 +189,6 @@ header h1 a{
     .principal{
         padding-left: 5%;
         min-height: 500px;
-        background-position: right;
     }
     .principal div h2{
         font-size: 3rem;
