@@ -21,7 +21,7 @@ header{
 
 .content-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     
@@ -74,7 +74,6 @@ header h1 a{
 @media (max-width: 768px){
     .content-header{
         padding: 0;
-        justify-content: space-between;
     }
     .back-menu-icon{
         position: relative;
