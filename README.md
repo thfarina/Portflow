@@ -1,7 +1,7 @@
 ### Portflow project
 <br>
 <h5>🗒️ DESCRIPTION</h5>
-<p>A responsive landing page for design service. I learned about mobile menu</p>
+<p>A responsive landing page for educational purpose.</p>
 <br>
 <h5>🕐 PROJECT STATUS</h5>
 <!-- ☑️ -->
